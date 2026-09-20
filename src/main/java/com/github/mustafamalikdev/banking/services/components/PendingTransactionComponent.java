@@ -24,6 +24,5 @@ public class PendingTransactionComponent {
 
     @CacheEvict(value = "idempotency", key = "#id")
     public void removeFromCache(String id) {
-        // ignore
     }
 }

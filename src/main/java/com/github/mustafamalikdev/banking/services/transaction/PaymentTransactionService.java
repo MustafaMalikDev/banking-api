@@ -42,9 +42,6 @@ public class PaymentTransactionService {
             return null;
         }
 
-//        producer.sendMessage(
-//                new RabbitMQMessage(paymentRequestBody.getRequestId()));
-
         return transactionRepository.save(new TransactionModel()
             .setModelFromPaymentRequest(paymentRequestBody)
             .setErrorCode(ErrorCode.PAYMENT_BEING_PROCESSED)
@@ -66,7 +63,6 @@ public class PaymentTransactionService {
         pendingTransactionComponent.removeFromCache(model.getRequestId());
     }
 
-    // TODO: if OTP required handle it
     public void updatePendingTransaction(TransactionModel model) {
         if (model == null) {
             return;

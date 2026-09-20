@@ -17,7 +17,6 @@ public class RabbitMQProducer {
         this.rabbitTemplate = rabbitTemplate;
     }
 
-//    @Scheduled(fixedDelay = 3000L)
     public void sendMessage(final RabbitMQMessage message) {
         rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME, RabbitMQConfig.ROUTING_KEY, message);
     }
