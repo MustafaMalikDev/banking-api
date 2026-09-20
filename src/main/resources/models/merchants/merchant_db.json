@@ -1,0 +1,62 @@
+[
+  {
+    "merchantName": "LVMH Moët Hennessy",
+    "location": "LOC_EUROPE",
+    "merchantId": 884102,
+    "merchantTaxId": "LVMH_MH_884102_EUROPE"
+  },
+  {
+    "merchantName": "Sony Group Corp",
+    "location": "LOC_NORTH_AMERICA",
+    "merchantId": 451920,
+    "merchantTaxId": "SONY_GC_451920_EUROPE"
+  },
+  {
+    "merchantName": "Patagonia Inc",
+    "location": "LOC_ASIA",
+    "merchantId": 312009,
+    "merchantTaxId": "PATAGONIA_I_312009_EUROPE"
+  },
+  {
+    "merchantName": "BHP Group Ltd",
+    "location": "LOC_EUROPE",
+    "merchantId": 903481,
+    "merchantTaxId": "BHP_GL_903481_EUROPE"
+  },
+  {
+    "merchantName": "MercadoLibre SRL",
+    "location": "LOC_SOUTH_AMERICA",
+    "merchantId": 671234,
+    "merchantTaxId": "MERCADOLIBRE_S_671234_EUROPE"
+  },
+  {
+    "merchantName": "Vattenfall AB",
+    "location": "LOC_EUROPE",
+    "merchantId": 501239,
+    "merchantTaxId": "VATTENFALL_A_501239_EUROPE"
+  },
+  {
+    "merchantName": "Quantum Dynamics",
+    "location": "LOC_OCEANIA",
+    "merchantId": 771029,
+    "merchantTaxId": "QUANTUM_D_771029_EUROPE"
+  },
+  {
+    "merchantName": "AeroSpace Tech",
+    "location": "LOC_EUROPE",
+    "merchantId": 994801,
+    "merchantTaxId": "AEROSPACE_T_994801_EUROPE"
+  },
+  {
+    "merchantName": "Global Logistics Express",
+    "location": "LOC_ASIA",
+    "merchantId": 883012,
+    "merchantTaxId": "GLOBAL_LE_883012_EUROPE"
+  },
+  {
+    "merchantName": "Acme Retail Solutions",
+    "location": "LOC_EUROPE",
+    "merchantId": 204918,
+    "merchantTaxId": "ACME_RS_204918_EUROPE"
+  }
+]
