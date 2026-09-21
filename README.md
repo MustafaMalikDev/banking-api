@@ -14,6 +14,11 @@ used in production, nor should be used in production. All sample data
 are fabricated and should not be used for any illegal activities. I am not 
 responsible for anything you do with this piece of software.
 
+### Control Flow
+
+Here is a simple diagram to understand the entire flow of execution:
+`Client -> REST Controller -> PostgreSQL / Redis -> Account Verification (OTP Decision for Amount) -> RabbitMQ -> Merchant Verification (OTP Decision for Location) -> Fraud Decision -> Transaction Ouput`
+
 Sample data can be found in the `resources/models` folder. It contains
 sample data for merchants and customers.
 
