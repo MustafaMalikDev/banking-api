@@ -168,3 +168,5 @@ These logs are generated in the maven output directory `target/classes/{local_da
 Developed by Mustafa Malik. See LICENCE for more information.
 <br/>
 Now supports Docker! run `docker compose up --build` to get started.
+<br/>
+To view documentation, head to `http://localhost:8080/api/v1/swagger-ui/index.html`
