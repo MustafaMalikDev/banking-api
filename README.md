@@ -17,6 +17,7 @@ responsible for anything you do with this piece of software.
 ### Control Flow
 
 Here is a simple flowchart diagram to understand the entire flow of execution
+<br/>
 <img src="FLOWCHART_IMAGE.png" width="250">
 
 Sample data can be found in the `resources/models` folder. It contains
