@@ -16,8 +16,8 @@ responsible for anything you do with this piece of software.
 
 ### Control Flow
 
-Here is a simple diagram to understand the entire flow of execution:
-`Client -> REST Controller -> PostgreSQL / Redis -> Account Verification (OTP Decision for Amount) -> RabbitMQ -> Merchant Verification (OTP Decision for Location) -> Fraud Decision -> Transaction Ouput`
+Here is a simple flowchart diagram to understand the entire flow of execution
+<img src="FLOWCHART_IMAGE.png">
 
 Sample data can be found in the `resources/models` folder. It contains
 sample data for merchants and customers.
