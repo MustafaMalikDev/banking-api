@@ -62,7 +62,6 @@ public class TransactionModel implements Persistable<String> {
     @Column(name = "error_code")
     private int errorCode;
 
-    @Setter(AccessLevel.NONE)
     private double amount;
 
     @Transient
