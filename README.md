@@ -165,4 +165,4 @@ These logs are generated in the maven output directory `target/classes/{local_da
 - Redis
 
 ---
-Developed by Mustafa Malik. See LICENSE for more information.
+Developed by Mustafa Malik. See LICENCE for more information.
